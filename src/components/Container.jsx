@@ -1,13 +1,7 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import './Container.css'
-import { useState,useEffect } from 'react'
-import clear from '../images/clear.png'
-import cloud from '../images/clear.png'
-import drizzle from '../images/clear.png'
-import rain from '../images/clear.png'
-import snow from '../images/clear.png'
-import wind from '../images/wind.png'
-import humid from '../images/humidity.png'
+import { useState,useEffect,useRef } from 'react'
+
 const Container = () => {
   const inputCity=useRef();
   const[pdata,setPdata]=useState(false);
