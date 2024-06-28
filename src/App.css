@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.weather{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient(45deg,rgb(218, 255, 159),rgb(214, 217, 121))
+}
